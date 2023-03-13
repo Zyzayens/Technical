@@ -1,0 +1,55 @@
+body{}
+
+header{
+  font-size: 20px;
+  font-style: oblique;
+  font-family: monospace;
+}
+#navbar{
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  background-color: grey;
+  height: 100%;
+
+}
+.links{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.links:hover {
+  color: red;
+}
+a{color: black}
+a:hover{
+  color:red;
+}
+#navhead{
+  align-self: baseline;
+  text-align: center;
+}
+#main-doc{
+    margin-left: 100px;
+}
+.main-section{
+ margin-top: : 80px;
+ margin-bottom: 80px;
+ border-style: solid;
+ border-color: black;
+ border-radius: 5px;
+}
+
+code{
+  font-style: italic;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 2px;
+}
+
+@media (max-width:750px){
+  #navbar{
+   display: none;
+  }
+}
